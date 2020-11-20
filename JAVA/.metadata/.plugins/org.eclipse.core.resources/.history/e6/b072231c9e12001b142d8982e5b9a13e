@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Coding_16 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		String a = sc.next();
+		
+		Coding_16_on turn = new Coding_16_on(); 
+		System.out.println("켜졌습니다");
+					
+		
+		
+		
+		
+		
+	}
+
+	}

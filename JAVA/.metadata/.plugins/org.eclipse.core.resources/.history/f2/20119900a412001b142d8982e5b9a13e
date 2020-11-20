@@ -1,0 +1,10 @@
+
+public class Coding_16_vol {
+	public int vol(int i) {
+		int vol = i;
+		for(i=0; i<=10; i++) {
+			vol = i++;
+		}
+		return vol;
+	}
+}

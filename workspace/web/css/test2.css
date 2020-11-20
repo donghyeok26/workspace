@@ -1,0 +1,129 @@
+@charset 'utf-8'
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+#header{
+    display: flex;
+    background-color: red;
+    justify-content: space-between
+}
+
+a{
+    text-decoration: none;
+    color: white;/*하이퍼링크 색바꿈*/
+}
+
+.header_logo img {
+    display: flex;
+    position: relative;
+    width: 7vw;
+    height: 10vh;
+}
+
+.header_team{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 4rem;
+    
+}
+
+.header_nav{
+    list-style: none;
+    display: flex;
+    font-size: 0.8rem;
+    padding: 1rem;
+    }
+
+.header_nav li{
+    padding:5px;
+}
+
+#menu{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    margin: 0rem;
+    height: 5vh;
+    color: white;
+}
+
+.menu_title{
+    display: flex;
+    list-style: none;
+    color: white; 
+    margin: 0rem;   
+}
+
+.menu_title li{
+    padding: 1rem;
+    margin: 0px;
+}
+
+input{
+    height: 100%;
+}
+button{
+    border:0;
+    padding: 2px;
+}
+.menu_link{
+    display: flex;
+    list-style: none;
+    color: whitesmoke;
+}
+
+.menu_link li{
+    padding: 5px;
+}
+
+#content{
+
+}
+
+.content_main{
+    display: flex;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.content_main li{
+    display: flex;
+    
+}
+
+.content_goods{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+
+.content_goods_list{
+
+}
+
+.content_pic{
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+.content_goods_list li{
+    width: 20vw;
+    height: 20vh;
+    text-align: center;    
+}
+
+.goods_info{
+    display: flex;
+    flex-direction: column;
+}
+
+#footer{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}

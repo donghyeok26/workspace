@@ -1,0 +1,16 @@
+
+public class Midtest_ {
+	
+
+	public int num_cal(String i) {
+		System.out.println("class"+i);
+		if(i.equals("+")) {
+			int volume = 0;
+			for(int a =0; a>=0;a++) {
+				int sum = volume + a;
+				System.out.println(sum);
+			}
+		}
+		
+	}
+}

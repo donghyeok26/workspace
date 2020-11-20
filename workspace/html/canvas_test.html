@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <canvas id ="myCanvas"
+    style="background-color: aliceblue;"
+    width="1000" height="1000"></canvas>
+    <script>
+        let canvas = document.querySelector('#myCanvas');
+        let context = canvas.getContext('2d');
+
+        context.beginPath();
+        context.strokeStyle="magenta";
+        context.arc(100,100,60,Math.PI,1.5*Math.PI,false);
+        context.stroke();
+
+        context.beginPath();
+        context.strokeStyle="blue";
+        context.arc(200,100,60,Math.PI/2,1.5*Math.PI,false);
+        context.stroke();
+
+        context.beginPath();
+        context.strokeStyle="red";
+        context.arc(300,100,60,0,1.5*Math.PI,false);
+        context.stroke();
+
+        context.beginPath();
+        context.strokeStyle="pink";
+        context.arc(500,100,60,0,2*Math.PI,false);
+        context.stroke();
+
+        context.beginPath();
+        context.moveTo(100,200);
+        context.lineTo(100,300);
+        context.strokeStyle="magenta";
+        context.stroke();
+
+        context.beginPath();
+        context.moveTo(200,200);
+        context.lineTo(200,300);
+        context.lineTo(300,250);
+        context.strokeStyle="magenta";
+        context.stroke();
+
+        context.beginPath();
+        context.moveTo(400,200);
+        context.lineTo(400,300);
+        context.lineTo(500,250);
+        context.lineTo(400,200);
+        context.strokeStyle="magenta";
+        context.stroke();
+
+        context.beginPath();
+        context.moveTo(100,500);
+        context.lineTo(100,600);
+        context.strokeStyle="magenta";
+        context.stroke();
+
+        context.beginPath();
+        context.moveTo(200,500);
+        context.lineTo(200,600);
+        context.lineTo(300,600);
+        context.strokeStyle="magenta";
+        context.stroke();
+
+        context.beginPath();
+        context.moveTo(350,500);
+        context.lineTo(350,600);
+        context.lineTo(450,600);
+        context.lineTo(450,500);
+        context.strokeStyle="magenta";
+        context.stroke();
+
+        context.beginPath();
+        context.rect(550,500,100,100);
+        context.strokeStyle="red";
+        context.stroke();
+    </script>
+    
+</body>
+</html>

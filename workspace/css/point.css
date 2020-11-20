@@ -1,0 +1,48 @@
+body {
+  background-color: black;
+}
+
+#block {
+}
+
+div {
+  background-color: white;
+}
+
+.x {
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+}
+
+.y {
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+}
+
+img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /*개체를 x축y축으로 이동*/
+}
+
+.point {
+  position: absolute;
+}
+
+.point.active {
+  background-color: red;
+}
+
+.num {
+  position: absolute;
+  background-color: white;
+  width: 100px;
+  height: 30px;
+  top: 50%;
+  left: 50%;
+}

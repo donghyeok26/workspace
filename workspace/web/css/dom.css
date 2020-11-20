@@ -1,0 +1,13 @@
+@charset 'utf-8'
+
+#firstP {
+}
+
+#firstP:active {
+  color: blue;
+  background: yellow;
+}
+
+.mention {
+  color: teal;
+}

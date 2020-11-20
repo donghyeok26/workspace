@@ -1,0 +1,292 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+body::after {
+  background: url(/web/img/ogu_background1.jpg) center/cover no-repeat;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-size: 100%;
+  opacity: 0.2 !important;
+  filter: alpha(opacity=50);
+  z-index: -1;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  color: white;
+}
+
+.header_menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  background-color: rgba(0, 0, 0, 0.5); /*50% 불투명도*/
+  margin: 0px;
+}
+
+.toy1 {
+  display: none;
+}
+.toy:hover .toy1 {
+  display: contents;
+}
+
+.toy1 li:hover {
+  color: rgb(88, 222, 232);
+}
+.office1 {
+  display: none;
+}
+.office:hover .office1 {
+  display: contents;
+}
+
+.office1 li:hover {
+  color: rgb(88, 222, 232);
+}
+.living1 {
+  display: none;
+}
+.living:hover .living1 {
+  display: contents;
+}
+
+.living1 li:hover {
+  color: rgb(88, 222, 232);
+}
+input {
+  margin-top: 25px;
+  max-width: 600px;
+  padding: 15px;
+  border: thick double #32a1ce;
+}
+
+.header_login {
+  margin-right: 30px;
+}
+
+.login_menu {
+  display: none;
+}
+
+.header_login:hover .login_menu {
+  display: contents;
+}
+
+.login_menu li:hover {
+  color: rgb(88, 222, 232);
+}
+
+/*GLOBALS*/
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#slider-wrap {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+#slider-wrap ul#slider {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#slider-wrap ul#slider li {
+  float: left;
+  position: relative;
+  width: 600px;
+  height: 400px;
+}
+
+#slider-wrap ul#slider li > div {
+  position: absolute;
+  top: 20px;
+  left: 35px;
+}
+
+#slider-wrap ul#slider li > div h3 {
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+#slider-wrap ul#slider li > div span {
+  font-size: 21px;
+}
+
+#slider-wrap ul#slider li img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/*btns*/
+.slider-btns {
+  position: absolute;
+  width: 50px;
+  height: 60px;
+  top: 50%;
+  margin-top: -25px;
+  line-height: 57px;
+  text-align: center;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  transition: all 0.1s ease;
+}
+
+.slider-btns:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+#next {
+  right: -50px;
+  border-radius: 7px 0px 0px 7px;
+  color: #eee;
+}
+
+#previous {
+  left: -50px;
+  border-radius: 0px 7px 7px 7px;
+  color: #eee;
+}
+
+#slider-wrap.active #next {
+  right: 0px;
+}
+
+#slider-wrap.active #previous {
+  left: 0px;
+}
+
+/*bar*/
+#slider-pagination-wrap {
+  min-width: 20px;
+  margin-top: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 15px;
+  position: relative;
+  text-align: center;
+}
+
+#slider-pagination-wrap ul {
+  width: 100%;
+}
+
+#slider-pagination-wrap ul li {
+  margin: 0 4px;
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #fff;
+  opacity: 0.5;
+  position: relative;
+  top: 0;
+}
+
+#slider-pagination-wrap ul li.active {
+  width: 12px;
+  height: 12px;
+  top: 3px;
+  opacity: 1;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 0px;
+}
+
+/*ANIMATION*/
+#slider-wrap ul,
+#slider-pagination-wrap ul li {
+  transition: all 0.3s cubic-bezier(1, 0.01, 0.32, 1);
+}
+.goods_title {
+  text-align: center;
+  margin: 50px;
+}
+
+.best_goods {
+  width: 70%;
+  height: 500px;
+  display: flex;
+  border-top: black solid 1px;
+  border-bottom: black solid 1px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.firstpic {
+  list-style: none;
+}
+
+.img1 img {
+  transition: all 0.5s ease-in-out;
+}
+
+.img1 img:hover {
+  transform: scale(1.1);
+}
+
+.secondpic {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+.secondpic li {
+  margin-left: 40px;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+@media screen and (max-width: 1668px) {
+  .best_goods {
+    width: 921px;
+  }
+  .secondpic li:nth-child(5) {
+    display: none;
+  }
+  .secondpic li:nth-child(6) {
+    display: none;
+  }
+}
+
+.goods_info {
+  text-align: center;
+}
+
+.youtube1 {
+  list-style: none;
+  width: 1900px;
+  padding: 0;
+}
+
+.text1 {
+  list-style: none;
+  font-weight: bolder;
+}

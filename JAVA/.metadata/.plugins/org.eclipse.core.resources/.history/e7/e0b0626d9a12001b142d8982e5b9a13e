@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Coding_16 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		String str = sc.next();
+		
+		Coding_16_on turn = new Coding_16_on();
+		if(str.equals("дя╠Б")){
+		String turn1 = turn.on();
+		}
+		System.out.println(turn);
+		
+		
+	}
+
+}

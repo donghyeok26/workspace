@@ -1,0 +1,31 @@
+div{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    background-color:red;
+}
+
+.container{
+    background-color: rgb(221, 221, 165);
+    left: 100px;
+    top : 100px;
+    position: relative;
+}
+.inline{
+    background-color: green;
+    display: inline-block
+}
+
+.div7{
+    background-color: lawngreen;
+    position: sticky;
+    left: 0px;
+    top: 0px;
+w
+
+.div9{
+    background-color: royalblue;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+}

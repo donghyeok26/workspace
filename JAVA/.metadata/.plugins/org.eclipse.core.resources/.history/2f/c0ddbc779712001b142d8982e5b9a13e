@@ -1,0 +1,7 @@
+
+public class Coding_16_on {
+	public String_turn on () {
+		String on = "дя╠Б";
+		return on;
+				}
+}

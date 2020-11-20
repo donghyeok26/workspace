@@ -1,0 +1,112 @@
+@charset 'utf-8'
+
+body{
+    background-color: white;
+}
+a{
+    text-decoration: none;
+    color: white;/*하이퍼링크 색바꿈*/
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /*padding 이나 margin 을 줬을 때 포함되어서 사이즈가 설정되도록*/
+  }
+#header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header_title{
+    color: white;
+    display: flex;   
+}
+.header_title li{
+    color: white;
+    display: inline-flex;
+}
+.header_search li{
+    color: white;
+    list-style: none;
+    display: inline-flex;
+    padding: 0px 20px 0px 40px;
+}
+
+#content{
+    width: 100%;
+    height: 100%;
+    max-width: 1000px;
+    
+}
+
+.hashtag{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    
+}
+
+.hashtag ul{
+    display: flex;
+    
+}
+.hashtag li{
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.content_text{
+    font-size: 1.5rem; 
+}
+
+.content_icon{
+    margin: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content_icon button{
+    border: 0;
+    background-color: white;
+}
+
+.section_tvn{
+    border-top: 1px;
+    border-bottom: 1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_tvn .tvn_con{
+    display: flex;
+
+ 
+}
+
+
+.section_tvn .section_border .inorder{
+
+}
+
+
+.section_tvn li{
+    list-style: none;
+    
+}
+
+.sub{
+    padding: 10px;
+    color: red;
+}
+
+.section_next{
+    
+}
+
+.section_next ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}

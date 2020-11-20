@@ -1,0 +1,7 @@
+
+public class Coding_16_on {
+	public String on () {
+		String str = "дя╠Б";
+		return str;
+				}
+}

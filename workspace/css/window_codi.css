@@ -1,0 +1,32 @@
+html {
+  width: 1440px;
+}
+
+body {
+  background-color: darkred;
+}
+
+.block {
+  display: flex;
+  width: 5000px;
+  background-color: darkred;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  background-color: darkseagreen;
+  margin-bottom: 3px;
+  border-radius: 10px; //모서리 둥글게
+  margin-left: 10px;
+}
+
+aside {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.jjang {
+  background-color: deeppink;
+}

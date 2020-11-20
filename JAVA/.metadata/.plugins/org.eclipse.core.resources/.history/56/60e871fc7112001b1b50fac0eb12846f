@@ -1,0 +1,34 @@
+import java.util.Scanner;
+public class Midtest1 {
+
+	public static int main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("입력하세요");
+		String a = sc.next();
+		
+		int volume = 0;
+			int i1 = 0;
+				while (i1 == volume) {
+					i1 = volume + 1;
+			
+		}
+		
+		
+		if(a.equals("+")) {
+			System.out.println("볼륨이 올라갔습니다");
+			System.out.println(i1);
+		}
+		else if(a.equals("-")) {
+			System.out.println("볼륨이 내려갔습니다");
+			
+		}
+		return i1;
+		
+		
+		
+		
+	}
+
+}

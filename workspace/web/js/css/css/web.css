@@ -1,0 +1,30 @@
+@charset 'uft-8'
+
+body{
+    background-color: white;
+}
+
+
+
+#header{
+    background-color: sandybrown;
+    width: 100px;
+    height: 100px;    
+}
+
+#nav{
+    background-color: whitesmoke;
+    width: 100px;
+    height: 100px;
+}
+
+#content{
+    
+    position: relative;
+}
+
+#footer{
+    background-color: darkgoldenrod;
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,48 @@
+@charset 'utf-8' 
+body{
+    background-color: white;
+}
+
+a{
+    text-decoration: none;<!--href 색제거-->
+    color: white ;
+}
+
+
+#header{
+    line-height : 100px;
+    margin: 0px;
+    background-color: red;
+}
+
+
+#nav{
+    display: flex; <!--가로정렬-->
+    align-items: center; <!--중간으로 옮김-->
+    justify-content: space-between;
+    width: 1000px;
+    height: 100px;
+    line-height: 100px;
+    background-color: cadetblue;
+}
+.nav_menu{
+    display: flex;
+    font-family: 'Krona One', sans-serif;
+}.nav_menu li{
+    list-style: nene;
+}
+.nav.menu link{
+    list-style: none ;
+}
+#content{
+    width: 1000px;
+    height: 600px;
+    line-height: 100px;
+    background-color: darkblue;
+}
+#footer{
+    float: left;
+    line-height: 100px;
+    background-color: darkgoldenrod;
+}
+​

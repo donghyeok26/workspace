@@ -1,0 +1,24 @@
+#size {
+  display: flex;
+  flex-direction: column;
+}
+
+.screen {
+  font-size: 50px;
+  display: inline-block;
+}
+
+.outer {
+  font-size: 50px;
+  display: inline-block;
+}
+
+.inner {
+  font-size: 50px;
+  display: inline-block;
+}
+
+.client {
+  font-size: 50px;
+  display: inline-block;
+}

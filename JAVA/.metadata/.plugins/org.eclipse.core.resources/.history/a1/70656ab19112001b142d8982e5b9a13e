@@ -1,0 +1,36 @@
+import java.util.Scanner;
+public class Coding_18 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		boolean stop = false;
+		int num;
+		
+		Coding_18_plus plus = new Coding_18_plus();
+		Coding_18_minus minu = new Coding_18_minus();
+		while (!stop) {
+			
+			System.out.println("두개의 정수 입력");
+			Scanner sc = new Scanner(System.in);
+			System.out.println("첫번쨰 정수 입력");
+			int num1 = sc.nextInt();
+			System.out.println("두번째 정수 입력");
+			int num2 = sc.nextInt();
+			System.out.println("+,-,/,X 중 선택");
+			String k = sc.next();
+			
+			
+			if(k.equals("+")) {
+				int sum = plus.plus_sum(num1,num2);
+				System.out.println(sum);
+			}
+			if(k.equals("-")) {
+				int sum1 = minu.minus_sum(num1, num2);
+				System.out.println(sum1);
+			}
+		}
+	}
+
+}

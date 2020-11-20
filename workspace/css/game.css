@@ -1,0 +1,61 @@
+body {
+  background-color: darkblue;
+}
+
+​ div {
+  width: 150px;
+
+  height: 150px;
+
+  background-color: green;
+
+  margin-bottom: 5px;
+
+  margin-left: 5px;
+
+  border-radius: 50%;
+}
+
+​ #article1 {
+  display: flex;
+}
+
+​ .box1 {
+  background-color: green;
+}
+
+​ .box1.passive {
+  background-color: darkblue;
+}
+
+​ .box2 {
+  background-color: green;
+}
+
+​ .box2.passive {
+  background-color: darkblue;
+}
+
+​ .box3 {
+  background-color: green;
+}
+
+​ .box3.passive {
+  background-color: darkblue;
+}
+
+​ .box4 {
+  background-color: green;
+}
+
+​ .box4.passive {
+  background-color: darkblue;
+}
+
+​ .box5 {
+  background-color: green;
+}
+
+​ .box5.passive {
+  background-color: darkblue;
+}

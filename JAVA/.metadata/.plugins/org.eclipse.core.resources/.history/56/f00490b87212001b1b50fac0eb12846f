@@ -1,0 +1,12 @@
+
+public class Midtest_ {
+	public int num_cal(int i) {
+		int volume = 0;
+		int i1 = 0;
+			while (i1 >= volume) {
+			i1 = volume + 1;
+	}
+			return i1;
+
+	}
+}

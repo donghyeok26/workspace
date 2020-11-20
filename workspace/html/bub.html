@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .outter {
+            width: 500px;
+            height: 500px;
+            background-color: yellow;
+        }
+
+        .middle {
+            width: 50%;
+            height: 50%;
+            margin: auto;
+            background-color: ivory;
+            transform: translateY(50%);
+        }
+
+        .button {
+            position: relative;
+            left: 50%;
+            top: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="outter">
+        <div class="middle">
+            <button class="button">click
+            </button>
+        </div>
+    </div>
+    <script>
+        const outter = document.querySelector('.outter');
+        const middle = document.querySelector('.middle');
+        const button = document.querySelector('.button');
+
+        console.log(outter);
+        console.log(middel);
+        console.log(button);
+
+        outter.addEventListener("click", () => {
+            console.log("아웃사이더")
+            console.log(`outter: ${event.currentTarget},${event.target}`);
+        });
+
+        middle.addEventListener("click", () => {
+            if (event.target !== event.currentTarget) {
+                return;
+            }
+            console.log("중간");
+            console.log(`button:${event.currentTarget},${event.target}`);
+        });
+    </script>
+</body>
+
+</html>

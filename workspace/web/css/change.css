@@ -1,0 +1,19 @@
+@charset 'utf-8';
+
+body {
+}
+
+.mydiv {
+  color: blue;
+}
+
+.myspan {
+  color: red;
+}
+.myspan.active {
+  color: green;
+  font-size: 30px;
+  display: block;
+  margin: 20px;
+  border: 3px;
+}

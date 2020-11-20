@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class Coding_16 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("입력하세요");
+		String a = sc.next();
+		Midtest_ nid = new Midtest_(); 
+		
+		if(a.equals("켜기")) {
+			System.out.println("켜졌습니다");
+		
+					}
+		else if(a.equals("끄기")) {
+			System.out.println("꺼졌습니다");
+			
+		}
+
+		
+		
+		
+	}
+
+	}

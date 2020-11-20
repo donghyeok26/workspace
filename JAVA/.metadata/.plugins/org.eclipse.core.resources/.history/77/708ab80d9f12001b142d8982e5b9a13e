@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class Coding_16 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		boolean stop = false;
+		
+		while(stop);
+		Scanner sc = new Scanner(System.in);
+		String a = sc.next();
+		
+		Coding_16_on turn = new Coding_16_on(); 
+		if(a.equals("ÄÑÁü")) {
+			String on = turn.turn();
+			System.out.println(on);
+		}
+		
+		
+		Coding_16_off turn1 = new Coding_16_off(); 
+		if(a.equals("²¨Áü")) {
+			String off = turn.turn();
+			System.out.println(off);
+		}
+		
+		
+		
+		
+	}
+
+	}

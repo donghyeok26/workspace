@@ -1,0 +1,7 @@
+
+public class Coding_16_on {
+	public String on () {
+		String str = "켜졌습니다";
+		return str;
+				}
+}

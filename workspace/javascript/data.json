@@ -1,0 +1,45 @@
+{
+    "items":[
+        {
+            "alt":"logo",
+            "img":"/web/img/ogufamily.png"
+        },
+        {
+            "alt":"borad",
+            "img":"/web/img/ogu기획전.jpg"
+        },
+        {
+            "alt":"borad",
+            "img":"/web/img/ogu기획전1.jpg"
+        },
+        {
+            "alt":"goods",
+            "img":"/web/img/ogugoods2.jpg"
+        },
+     
+        {
+            "alt":"goods",
+            "img":"/web/img/goods4.jpg"
+        },
+        {
+            "alt":"goods",
+            "img":"/web/img/hotgoods4.jpg"
+        },
+        {
+            "alt":"goods",
+            "img":"/web/img/hotgoods2.jpg"
+        },
+        {
+            "alt":"goods",
+            "img":"/web/img/hotgoods3.jpg"
+        },
+        {
+            "alt":"goods",
+            "img":"/web/img/goods2.jpg"
+        },
+        {
+            "alt":"goods",
+            "img":"/web/img/ogugoods3.jpg"
+        }
+    ]
+}

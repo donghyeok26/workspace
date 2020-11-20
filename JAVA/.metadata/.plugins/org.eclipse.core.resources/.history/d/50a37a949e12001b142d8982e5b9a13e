@@ -1,0 +1,10 @@
+
+public class Coding_16_on {
+
+	public String turn() {
+		String str = "дя╠Б";
+				return str;
+	}
+
+
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .select{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li>10</li>
+        <div>11</div>
+        <div>12</div>
+    </ul>
+
+    <script>
+        /*
+        const lis =document.querySelectorAll("li");
+        console.log(lis);
+        lis.forEach(li => {
+            li.addEventListener("click",() =>{
+                li.classList.add("select");
+            });
+        });
+*/
+
+        const ul=document.querySelector("ul");
+        ul.addEventListener("click",(event)=>{
+            if(event.target.tagName=="LI"){//무조건 대문자 이용
+            event.target.classList.add("select");
+            }
+        });
+    </script>
+    
+</body>
+</html>

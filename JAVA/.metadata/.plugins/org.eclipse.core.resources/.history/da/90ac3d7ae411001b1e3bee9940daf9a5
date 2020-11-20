@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Midtest1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("입력하세요");
+		int a = sc.nextInt();
+		While_test wh = new While_test();
+		
+		System.out.println(wh);
+	}
+
+}

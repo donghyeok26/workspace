@@ -1,0 +1,8 @@
+
+public class Coding_16_vol {
+	public int vol(int i) {
+		int vol = i+1;
+		
+		return vol;
+	}
+}
