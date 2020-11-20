@@ -80,3 +80,5 @@ var autoSlider = setInterval(function () {
     
 
   AOS.init();
+
+  /*주석처리*/
