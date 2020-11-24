@@ -8,12 +8,20 @@ html {
 }
 
 body {
-  background-color: #f5f4f6;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    108deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(118, 91, 135, 1) 0%,
+    rgba(255, 255, 255, 1) 47%,
+    rgba(125, 125, 186, 1) 100%
+  );
   box-sizing: border-box;
   width: 100%;
   height: 100%;
   outline: none;
   overflow: hidden;
+  border-color: #f37335;
 }
 
 ul {
@@ -22,8 +30,12 @@ ul {
 
 li {
   border-radius: 6px;
-  border: 1px solid black;
+  border: 2px solid #4a00e0;
   background-color: #eae9ea;
+}
+
+li:hover {
+  transform: scale(1.1);
 }
 
 .aside {
@@ -48,6 +60,11 @@ li {
 
 .aside_menu .aside2 {
   width: 63%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
 }
 
 .bside {
@@ -134,8 +151,9 @@ li {
   height: 100%;
 }
 
-.cancel_btn {
-  visibility: hidden;
+.center1 img {
+  width: 100%;
+  height: 100%;
 }
 
 .footer {
@@ -185,6 +203,23 @@ li {
   height: 47%;
 }
 
+.eside {
+  width: 30%;
+  height: 40%;
+  padding: 1em 0 0 2.8em;
+  visibility: hidden;
+}
+
+.eside_menu {
+  width: 100%;
+  height: 100%;
+}
+
+.eside_menu li {
+  width: 96%;
+  height: 100%;
+}
+
 .shoadow {
   width: 100%;
   height: 100%;
@@ -197,4 +232,12 @@ li {
   display: none;
   transition: display;
   transition-duration: 0.5s;
+}
+
+.cancel_btn {
+  position: absolute;
+  visibility: hidden;
+  font-size: 2em;
+  color: white;
+  z-index: 99;
 }
